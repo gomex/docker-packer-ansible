@@ -11,4 +11,5 @@ RUN apk add --no-cache ansible=2.10.7-r0 py-pip=20.3.4-r1 openssh=8.6_p1-r3 \
   # Fix CVE-2021-3711 CVE-2021-3712
   openssl=1.1.1q-r0
 
+
 ENTRYPOINT ["/bin/packer"]
