@@ -12,3 +12,4 @@ jobs:
     secrets:
       docker_user: ${{secrets.DOCKER_LOGIN}}
       docker_password: ${{secrets.TOKEN_DOCKERHUB}}
+      trivy_exit_code: "0"
